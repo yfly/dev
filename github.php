@@ -1,6 +1,6 @@
-<?php `git pull`;
+<?php
 
- Post-Receive https://github.com/yfly/dev.git
+    echo nl2br(shell_exec('git pull origin master 2>&1'));
 
  ?>
 
