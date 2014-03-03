@@ -1,6 +1,3 @@
 <?php
-
-    echo nl2br(shell_exec('git pull origin master 2>&1'));
-
+ `git pull http://github.com/yfly/dev`; 
  ?>
-
